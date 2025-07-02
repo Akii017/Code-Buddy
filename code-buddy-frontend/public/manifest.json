@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Code Buddy",
+  "description": "Your AI coding companion for LeetCode and other coding platforms",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icon-128.png",
+    "32": "icon-32.png",
+    "16": "icon-16.png",
+    "48": "icon-48.png"
+  },
+  "action": {
+    "default_icon": {
+      "128": "icon-128.png",
+      "32": "icon-32.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://leetcode.com/submissions/*"
+      ],
+      "js": ["assets/contentScript.js"]
+    }
+  ]
+} 
