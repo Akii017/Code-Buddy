@@ -53,13 +53,13 @@ Whether you're just starting a problem, stuck with an error, or looking to optim
 ### ✅ Optimal Solution in All Languages
 ![Optimal Solution Screenshot](screenshots/Optimal-1.png)
 ![Optimal Solution Screenshot](screenshots/Optimal-2.png)
-![Optimal Solution Screenshot](screenshots/Optimal-2.png)
+![Optimal Solution Screenshot](screenshots/Optimal-3.png)
 
 ### 📚 Learn Concept Video
 ![Learn Concept](screenshots/Video.png)
 
 ### Similar Questions 
-![Similar Questions](screenshots/SimilarQuestions.png)
+![Similar Questions](SimilarQuestions.png)
 
 
 ---
